@@ -1,0 +1,25 @@
+{
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "project": "Python Demo",
+    "build": "behave-browserstack",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "app": "APP_ID"
+  },
+
+  "environments": [{
+    "device": "Samsung Galaxy S20"
+  },
+  {
+    "device": "Samsung Galaxy S10"
+  },
+  {
+    "device": "Google Nexus 5"
+  },
+  {
+    "device": "Google Pixel"
+  }]
+}

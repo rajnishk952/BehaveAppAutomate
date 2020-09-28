@@ -1,0 +1,17 @@
+{
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "project": "Python Demo",
+    "build": "behave-browserstack",
+    "name": "local_test",
+    "browserstack.debug": true,
+    "browserstack.local": true,
+    "app": "APP_ID"
+  },
+
+  "environments": [{
+    "device": "Google Pixel"
+  }]
+}
